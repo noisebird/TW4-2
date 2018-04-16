@@ -8,6 +8,9 @@ import java.util.Scanner;
 public class AquireReader {
 
     public int read(){
-        return 0;
+        System.out.println("请输入学生的个数：");
+        Scanner scanner =new Scanner(System.in);
+        int num=scanner.nextInt();
+        return num;
     }
 }
