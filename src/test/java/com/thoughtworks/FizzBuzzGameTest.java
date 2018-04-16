@@ -26,9 +26,14 @@ public class FizzBuzzGameTest {
         System.setOut(new PrintStream(outContent));
     }
     @Test
-    public void should_return_Fizz_when_have_3() {
+    public void should_return_Fizz_when_have_input_3_number_is_correct() {
         Teacher teacher=new Teacher(3,5,7);
         assertTrue(teacher.isReasonableNum());
+    }
+    @Test
+    public void should_return_Fizz_when_the_number_out_of_bound() {
+        Teacher teacher=new Teacher(3,15,7);
+        assertFalse(teacher.isReasonableNum());
     }
 
 }
