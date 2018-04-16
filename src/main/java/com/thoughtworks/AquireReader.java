@@ -7,4 +7,7 @@ import java.util.Scanner;
  */
 public class AquireReader {
 
+    public int read(){
+        return 0;
+    }
 }

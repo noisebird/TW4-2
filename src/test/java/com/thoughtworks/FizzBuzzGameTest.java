@@ -36,4 +36,11 @@ public class FizzBuzzGameTest {
         assertFalse(teacher.isReasonableNum());
     }
 
+    @Test
+    public void should_return_the_same_result() throws Exception {
+        when(reader.read()).thenReturn(100);
+        game.init(reader);
+        assertEquals("1",game.getResults().get(0));
+    }
+
 }

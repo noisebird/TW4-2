@@ -10,6 +10,10 @@ public class FizzBuzzGame {
     public void start(int count) {
     }
 
+    public void init(AquireReader reader) {
+
+    }
+
 
     public List<String> getResults() {
         return results;
