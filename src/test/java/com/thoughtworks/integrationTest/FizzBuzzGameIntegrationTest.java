@@ -4,15 +4,14 @@ Don't change this file
 */
 
 import com.thoughtworks.FizzBuzzGame;
-import com.thoughtworks.Teacher;
 import org.junit.Test;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.Assert.*;
 import static org.hamcrest.core.IsEqual.equalTo;
+
 public class FizzBuzzGameIntegrationTest {
     @Test
     public void testFizzBuzzGameResults() {
