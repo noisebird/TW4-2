@@ -4,6 +4,7 @@ Don't change this file
 */
 
 import com.thoughtworks.FizzBuzzGame;
+import com.thoughtworks.Teacher;
 import org.junit.Test;
 
 import java.lang.reflect.Array;
@@ -27,8 +28,6 @@ public class FizzBuzzGameIntegrationTest {
                 "Fizz", "82", "Fizz", "FizzWhizz", "Buzz", "86", "Fizz", "88", "89", "FizzBuzz",
                 "Whizz", "92", "Fizz", "94", "Buzz", "Fizz", "97", "Whizz", "Fizz", "Buzz"
         );
-
-
         FizzBuzzGame game = new FizzBuzzGame();
         game.start(100);
         List<String> results = game.getResults();

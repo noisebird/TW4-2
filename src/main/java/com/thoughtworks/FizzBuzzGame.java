@@ -5,11 +5,11 @@ import java.util.List;
 
 
 public class FizzBuzzGame {
-    private List<String> results = new ArrayList<>();
+    private List<String> results = new ArrayList<String>();
 
     public void start(int count) {
-
     }
+
 
     public List<String> getResults() {
         return results;
