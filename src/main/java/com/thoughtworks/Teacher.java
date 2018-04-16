@@ -5,4 +5,9 @@ package com.thoughtworks;
  */
 public class Teacher {
 
+
+    public boolean isReasonableNum() {
+
+
+    }
 }
