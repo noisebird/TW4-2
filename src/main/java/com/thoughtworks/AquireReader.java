@@ -9,8 +9,16 @@ public class AquireReader {
 
     public int read(){
         System.out.println("请输入学生的个数：");
-        Scanner scanner =new Scanner(System.in);
-        int num=scanner.nextInt();
+        int num= 0;
+        while (true) {
+            try {
+                Scanner scanner =new Scanner(System.in);
+                num = scanner.nextInt();
+                break;
+            } catch (Exception e) {
+                System.out.println("请输入正确的数字！");
+            }
+        }
         return num;
     }
 }
